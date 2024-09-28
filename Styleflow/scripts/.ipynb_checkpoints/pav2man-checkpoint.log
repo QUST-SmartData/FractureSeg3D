@@ -1,0 +1,13 @@
+job name:  pav2man
+mkdir task folder
+mkdir img_save folder
+mkdir model folder
+imgs_A_1:  2958
+imgs_B_1:  410
+len_imgA:  2958
+len_imgB:  2958
+code:  2958
+/opt/data/private/StyleFlow-Content-Fixed-I2I/model/utils/utils.py:8: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  return yaml.load(stream)
+/opt/data/private/StyleFlow-Content-Fixed-I2I/model/layers/conv.py:45: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  w_s = torch.from_numpy(w_s)

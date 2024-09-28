@@ -1,0 +1,2 @@
+python3 ../test.py --config=configs/road2core1.yaml --model_path output/road2core1/model_save/187500.ckpt.pth.tar
+# python3 ../test.py --config=configs/road2core2.yaml --model_path output/road2core2/model_save/187500.ckpt.pth.tar
